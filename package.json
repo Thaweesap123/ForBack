@@ -9,7 +9,7 @@
     "mongoose": "^6.3.0",
     "path": "^0.12.7"
   },
-  "name": "backend",
+  "name": "HELPIT_BACK",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
