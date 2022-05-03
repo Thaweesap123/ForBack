@@ -14,7 +14,7 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 //Connnect Db
-mongoose.connect(process.env.DATABASE_URL, {
+mongoose.connect(process.env.DATABASE_URL || "3000", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 })
